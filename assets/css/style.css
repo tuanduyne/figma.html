@@ -443,6 +443,12 @@ a {
     border-radius: 25px;
 
 }
+.btnpopular:hover{
+    opacity: 0.9;
+}
+.buttoncost:hover{
+    opacity: 0.9;
+}
 .costppl{
     display: flex;
     margin-top: 2px;
