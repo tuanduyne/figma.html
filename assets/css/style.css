@@ -343,7 +343,7 @@ a {
     font-size: 38px;
     line-height: 48px;
     letter-spacing: -2%;
-
+    
 }
 .headerpopular .imgpopular{
     margin-top: 50px;
@@ -361,6 +361,9 @@ a {
     top: 1164px;
     left: 135px;
 
+}
+.headerpopular{
+    margin-top: -160px;
 }
 .imgpopular ul {
     display: flex;
@@ -585,4 +588,87 @@ a {
     position: absolute;
     top: -30px; 
     left: -25px; 
+}
+/* code phần report */
+
+.report-box{
+    width: 1170px;
+    height: 438px;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    margin: 10% auto;
+    gap: 10%;
+}
+.reportright{
+    width: 470px;
+    height: 322px;
+    border-radius: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.contentreport {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reportleft{
+    width: 570px;
+    height: 438px;
+    top: 2525px;
+    left: 135px;
+    border-radius: 16px;
+}
+.contentreport h3{
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: -2%;
+    width: 470px;
+    height: 96px;
+    top: 2583px;
+    left: 835px;
+
+
+}
+.contentreport p{
+    line-height: 28px;
+    letter-spacing: 0%;
+    width: 458px;
+    height: 84px;
+
+}
+.p-report{
+    width: 458px;
+    height:84px;
+    top: 2695px;
+    left: 835px;
+}
+.btn-report {
+    width: 137px;
+    height: 50px;
+    top: 2855px;
+    left: 835px;
+    border-radius: 26px;
+    background-color: #FFB900;
+    color: white;
+    border: none;
+    position: relative;
+    top: -30px;
+    left: -5px;
+    opacity:0.9;
+    cursor: pointer;
+}
+.reportleft .imgrp {
+    position: relative; 
+    top: -20px;  
+    
+}
+.reportleft{
+    gap:20px;
+    display: flex;
 }
