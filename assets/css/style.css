@@ -37,6 +37,13 @@ a {
     line-height: 50px;
     min-width: 118px;
     text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+
 }
 .btnsign-up {
     width: 144px;
@@ -44,6 +51,15 @@ a {
     border-radius: 24.5px;
     color: white;
     padding: 0 10px; 
+    margin: 0 auto;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn:hover{
     opacity: 0.9;
@@ -142,7 +158,7 @@ a {
     padding: 24px;
     margin-right: -10px;
     width: 230px;
-    height: 244;
+    height: 244px;
 
 
 }
@@ -226,6 +242,12 @@ a {
     font-weight: 600;
     font-size: 18px;
     line-height: 30px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+
 }
 .content-right .heading{
     margin-top: -100px;
@@ -363,7 +385,7 @@ a {
 
 }
 .headerpopular{
-    margin-top: -160px;
+    margin-top: -240px;
 }
 .imgpopular ul {
     display: flex;
@@ -444,6 +466,13 @@ a {
     top: 1673px;
     left: 365px;
     border-radius: 25px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
 
 }
 .btnpopular:hover{
@@ -660,8 +689,17 @@ a {
     position: relative;
     top: -30px;
     left: -5px;
-    opacity:0.9;
     cursor: pointer;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.btn-report:hover{
+    opacity:0.9;
 }
 .reportleft .imgrp {
     position: relative; 
@@ -671,4 +709,218 @@ a {
 .reportleft{
     gap:20px;
     display: flex;
+}
+/* css cho phần invite */
+.boxinvite{
+    width: 1170px;
+    height: 440px;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    margin: 10% auto;
+    gap: 10%;
+}
+.inviter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 570px;
+    height: 298px;
+    top: 3234px;
+    left: 135px;
+    border-radius: 26px;
+}
+.inviter h3{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: -2%;
+    width: 570px;
+    height: 144px;
+    top: 3234px;
+    left: 135px;
+    font-family: Sen;
+}
+.inviter p{
+    width: 570px;
+    height: 56px;
+    top: 3394px;
+    left: 135px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.inviter .btn-invite{
+    width: 137px;
+    height: 50px;
+    top: 3482px;
+    left: 135px;
+    border-radius: 26px;
+    border: none;
+    background-color:#FFB900;
+    color:#FFFFFF;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-invite:hover{
+    opacity:0.9;
+}
+.invitel {
+    width: 470px;
+    height: 440px;
+    top: 3163px;
+    left: 835px;
+    border-radius: 20px;
+}
+/* Css cho blog */
+.blogbox{
+    width: 1440px;
+    height: 878px;
+    top: 4681px;
+    margin: 0px auto;
+    background-color: #FFFCF4;
+    
+}
+ .headerblog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    top: 3899px;
+    left: 496px;
+   
+}
+.headerblog h3{
+    width: 154px;
+    height: 48px;
+    top: 3899px;
+    left: 643px;
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    margin: 70px auto;
+}
+.headerblog p{
+    width: 448px;
+    height: 56px;
+    top: 3963px;
+    left: 496px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: -60px auto;
+}
+.contentblog .imgblog {
+    width: 370px;
+    height: 467px;
+    top: 4074px;
+    left: 935px;
+    background-color: #fff;
+}
+.blogbox .contentblog ul{
+    display: flex;
+    gap: 36px;
+    margin-top: 110px;
+    justify-content: center;
+    border-radius: 12px;
+    background-color:#FFFCF4;
+    border: 1px solid #ffffff;
+}
+.contentblog .card:hover{
+    transform: scale(1) translateY(-2px); 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
+    background: #ffffff; 
+    backdrop-filter: blur(5px);
+}
+.imgblog h4{
+    width: 133px;   
+    height: 26px;
+    top: 4344px;
+    left: 155px;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0%;
+
+}
+.blogbox .contentblog img{
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #ffffff;
+   
+}
+.costblog{
+    margin:20px 1px;
+}
+.buttoncost .button2{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 76px;
+    height: 26px;
+    top: 4475px;
+    left: 176px;
+
+
+}
+.ctblog p{
+    width: 330px;
+    height: 56px;
+    top: 4395px;
+    left: 155px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+
+}
+.ctblog h4{
+    width: 133px;
+    height: 26px;
+    top: 4344px;
+    left: 155px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #5F5B53;
+}
+.ctblog{
+    position:relative;
+    display: inline-block;
+}
+.strange::after{
+    content: '';
+    position: absolute;
+    left: 1px;
+    bottom: 145px;
+    width: 44%;
+    height: 1px; 
+    background-color:#E2DFDA; 
+}
+.costblog .costppl .btnblog .buttoncost .button3{
+    background-color: #000000;
+}
+.bcblog{
+    width: 30px;
+    height: 6px;
+    margin-left: 700px;
+    margin-top: 30px;
 }
